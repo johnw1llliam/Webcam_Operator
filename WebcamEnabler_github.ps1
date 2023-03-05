@@ -1,0 +1,1 @@
+Enable-PnpDevice -InstanceId (Get-PnpDevice -FriendlyName "camera_name" -Class Camera -Status Error).InstanceId -Confirm:$false
