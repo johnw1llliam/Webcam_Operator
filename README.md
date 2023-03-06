@@ -31,8 +31,10 @@ With the help of python and Windows Powershell, we can disable our webcam easily
 
 ### 5. Changing data in the python file
 5.1. Change the comm_enable and comm_disable variable file path to the directory in step 3, </br>
-     ex:  comm_disable = subprocess.Popen(["powershell.exe", r"C:\PS1\WebcamDisabler.ps1"], stdout=sys.stdout) </br>
-          comm_enable = subprocess.Popen(["powershell.exe", r"file_path\WebcamEnabler.ps1"], stdout=sys.stdout) </br>
+     ex:  comm_disable = subprocess.Popen(["powershell.exe", r"C:\PS1\WebcamDisabler_github.ps1"], stdout=sys.stdout) </br>
+          comm_enable = subprocess.Popen(["powershell.exe", r"C:\PS1\WebcamEnabler_github.ps1"], stdout=sys.stdout) </br>
 5.2. Save the file and run it! </br>
 
-Note: You can convert the python file to exe, just google it. This will make your life easier
+### 6. Converting the python file to .exe
+6.1. Convert the python file to .exe, you can google it </br>
+6.2. Set the .exe file to always run as administrator, you can google it. <b>(If the file run without administrator, you will get an error)</b> </br>
