@@ -1,7 +1,9 @@
 # WebcamOperator
 
 ## Description
-This program will help you to enable and disable webcam on your Laptop/PC without having to buy webcam cover and potentially break your screen (due to the pressure that you apply during opening and closing the cover to your screen).
+This program will help you to enable and disable webcam on your Laptop without having to buy webcam cover and potentially break your screen in the long run (due to the pressure that you apply to the screen during opening and closing the webcam cover).
+
+![alt text](https://github.com/johnw1llliam/Webcam_Operator/blob/main/Theory_Image.png?raw=true)
 
 With the help of python and Windows Powershell, we can disable our webcam easily without having to type the script in the powershell everytime we want to turn on/off our camera.
 
